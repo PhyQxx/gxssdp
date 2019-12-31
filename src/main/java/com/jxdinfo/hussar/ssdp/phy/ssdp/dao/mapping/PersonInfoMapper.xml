@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxdinfo.hussar.ssdp.phy.ssdp.dao.PersonInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jxdinfo.hussar.ssdp.phy.ssdp.model.PersonInfo">
+        <result column="identity_number" property="identityNumber"/>
+        <result column="identity_card" property="identityCard" />
+        <result column="name" property="name" />
+        <result column="sex" property="sex"/>
+        <result column="nation" property="nation"/>
+        <result column="birthday" property="birthday"/>
+        <result column="postcode" property="postcode"/>
+        <result column="address" property="address"/>
+        <result column="phone" property="phone"/>
+        <result column="native_place" property="nativePlace" />
+        <result column="town" property="town" />
+        <result column="village" property="village" />
+        <result column="agency" property="agency"/>
+    </resultMap>
+
+    <insert id="insertAll" parameterType="com.jxdinfo.hussar.ssdp.phy.ssdp.model.PersonInfo">
+        insert into
+        gxsb_person_info
+        (
+         identity_number,
+         identity_card,
+         name,
+         sex,
+         nation,
+         birthday,
+         postcode,
+         address,
+         phone,
+         native_place,
+         town,
+         village,
+         agency
+        )
+        values
+        (
+         #{identityNumber},
+         #{identityCard},
+         #{name},
+         #{sex},
+         #{nation},
+         #{birthday},
+         #{postcode},
+         #{address},
+         #{phone},
+         #{nativePlace},
+         #{town},
+         #{village},
+         #{agency}
+        )
+    </insert>
+
+    <!--批量插入-->
+    <insert id="batchInsertAll" parameterType="java.util.List">
+        INSERT INTO
+        gxsb_person_info
+        (
+         identity_number,
+         identity_card,
+         name,
+         sex,
+         nation,
+         birthday,
+         postcode,
+         address,
+         phone,
+         native_place,
+         town,
+         village,
+         agency
+        )
+        VALUES
+        <foreach collection="list" item="item" index="index" separator=",">
+            (
+            #{item.identityNumber,jdbcType=VARCHAR},
+            #{item.identityCard,jdbcType=VARCHAR},
+            #{item.name,jdbcType=VARCHAR},
+            #{item.sex,jdbcType=VARCHAR},
+            #{item.nation,jdbcType=VARCHAR},
+            #{item.birthday,jdbcType=VARCHAR},
+            #{item.postcode,jdbcType=VARCHAR},
+            #{item.address,jdbcType=VARCHAR},
+            #{item.phone,jdbcType=VARCHAR},
+            #{item.nativePlace,jdbcType=VARCHAR},
+            #{item.town,jdbcType=VARCHAR},
+            #{item.village,jdbcType=VARCHAR},
+            #{item.agency,jdbcType=VARCHAR})
+        </foreach>
+    </insert>
+
+    <!--获取所有镇-->
+    <select id="getAllTown" resultType="map">
+        SELECT DISTINCT town Town FROM gxsb_person_info
+    </select>
+
+    <!--根据镇获取所有的村-->
+    <select id="getAllVillage" resultType="map" parameterType="map">
+        SELECT DISTINCT village Village FROM gxsb_person_info WHERE town=#{Town}
+    </select>
+
+    <!--根据镇和村获取一个村的人员信息-->
+    <select id="getPayableInfoByVillage" parameterType="map" resultMap="BaseResultMap">
+        select
+        identity_number,
+        identity_card,
+        name,
+        sex,
+        nation,
+        birthday,
+        postcode,
+        address,
+        phone,
+        native_place,
+        town,
+        village,
+        agency
+        from gxsb_person_info
+        WHERE
+        town=#{Town}
+        and village=#{Village}
+    </select>
+
+    <!--取出相应照片-->
+    <select id="mobilePhotos" resultType="String">
+        select
+        identity_card
+        from gxsb_person_info
+    </select>
+
+    <select id="getAllPersonInfo" resultMap="BaseResultMap">
+        select
+            identity_number,
+            identity_card,
+            name,
+            sex,
+            nation,
+            birthday,
+            postcode,
+            address,
+            phone,
+            native_place,
+            town,
+            village,
+            agency
+        from gxsb_person_info
+    </select>
+    <!--用于制卡数据标记-->
+    <update id="updateIsUsed" parameterType="string">
+        update gxsb_person_info set is_used='1' where identity_card=#{identityId}
+    </update>
+
+    <!--用于删除的数据标记-->
+    <update id="delPersonInfo" parameterType="string">
+        update gxsb_person_info set is_used='0' where identity_card=#{identityId}
+    </update>
+</mapper>

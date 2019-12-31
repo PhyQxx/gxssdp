@@ -1,0 +1,49 @@
+package com.jxdinfo.hussar.ssdp.zig.dao;
+
+import com.jxdinfo.hussar.ssdp.zig.model.SsPersonInfo;
+import com.baomidou.mybatisplus.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
+
+
+import java.util.List;
+import java.util.Map;
+
+/**
+ * <p>
+ * 社保人员信息表 Mapper 接口
+ * </p>
+ *
+ * @author 赵继国
+ * @since 2019-10-08
+ */
+
+@Mapper
+public interface SsPersonInfoMapper extends BaseMapper<SsPersonInfo> {
+
+    /**
+     * 添加人员基本信息
+     * @param ssPersonInfo
+     * @return
+     */
+    int insertPersonInfo(List<SsPersonInfo> ssPersonInfos);
+
+    /**
+     *获得所有乡镇
+     * @return
+     */
+    List<Map<String,Object>> getTowns();
+
+    /**
+     * 获取所有村
+     * @param map
+     * @return
+     */
+    List<Map<String,Object>> getVillages(Map<String,Object> map);
+
+    /**
+     * 以乡镇为单位获取人员信息
+     * @param 包括乡镇和村信息
+     * @return
+     */
+    List<SsPersonInfo> getPayableInfoByTown(Map<String,Object> map);
+}

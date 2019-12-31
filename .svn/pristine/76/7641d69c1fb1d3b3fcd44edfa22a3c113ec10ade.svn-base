@@ -1,0 +1,32 @@
+@layout("/common/layout.html",{title:'管理'}){
+<div class="layui-fluid weadmin-body">
+    <form class="layui-form" action="">
+        <div class="layui-elem-quote">
+            <label>管理</label>
+        </div>
+        <br />
+        <div class="layui-form-item clearfix">
+            <div class="layui-input-inline">
+                <input type="text" id="condition" placeholder="请输入名称" autocomplete="off" class="layui-input" >
+            </div>
+            <div class="layui-input-inline">
+                <button class="layui-btn" data-type="reload" type="button" onclick="SsPersonInfo.search()"><i class="layui-icon">&#xe615;</i>查询</button>
+                <button class="layui-btn" type="reset"><i class="layui-icon">&#xe00A;</i>重置</button>
+            </div>
+            <!--文件导入-->
+            <div class="layui-upload">
+                <button type="button" class="layui-btn layui-btn-normal" id="optionFile">选择文件</button>
+                <button type="button" class="layui-btn" id="uploadFile">开始上传</button>
+            </div>
+
+            <!--文件导出-->
+            <div class="fr">
+
+                    <button type="button" class="layui-btn" id="villageBtn">根据乡村导出</button>
+            </div>
+        </div>
+    </form>
+    <table id="SsPersonInfoTable" ></table>
+</div>
+<script src="${ctxPath}/static/js/ssdp/zjg/ssPersonInfo.js"></script>
+@}

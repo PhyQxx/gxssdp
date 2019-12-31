@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxdinfo.hussar.ssdp.zig.dao.SsPersonInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jxdinfo.hussar.ssdp.zig.model.SsPersonInfo">
+        <result column="identity_card" property="identityCard" />
+        <result column="name" property="name" />
+        <result column="native_place" property="nativePlace" />
+        <result column="town" property="town" />
+        <result column="village" property="village" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        identity_card AS identityCard, name AS name, native_place AS nativePlace, town AS town, village AS village
+    </sql>
+<!--添加人员基本信息-->
+    <insert id="insertPersonInfo" parameterType="java.util.List" >
+        insert into person_info_test
+        (identity_card,name,native_place,town,village)
+        values
+        <foreach collection="list" item="item" index="index" separator=",">
+            (#{item.identityCard,jdbcType=VARCHAR},#{item.name,jdbcType=VARCHAR},#{item.nativePlace,jdbcType=VARCHAR},#{item.town,jdbcType=VARCHAR},#{item.village,jdbcType=VARCHAR})
+        </foreach>
+
+    <!--
+    insert into person_info_test (identity_card,name,native_place,town,village) values (#{identityCard},#{name},#{nativePlace},#{town},#{village})
+    -->
+
+    </insert>
+
+    <!--获得所有的镇-->
+    <select id="getTowns"  resultType="map">
+        select town  from person_info_test
+    </select>
+
+    <!--获取所有村-->
+    <select id="getVillages" parameterType="map" resultType="map">
+        select village from person_info_test where town=#{town}
+    </select>
+
+    <select id="getPayableInfoByTown" parameterType="map" resultMap="BaseResultMap">
+        select
+        identity_card,name,native_place
+        from person_info_test
+        WHERE
+        town=#{town}
+        and village=#{village}
+    </select>
+</mapper>

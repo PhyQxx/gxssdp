@@ -1,0 +1,195 @@
+package com.jxdinfo.hussar.ssdp.zig.service.impl;
+
+import com.jxdinfo.hussar.ssdp.zig.model.SsPersonInfo;
+import com.jxdinfo.hussar.ssdp.zig.dao.SsPersonInfoMapper;
+import com.jxdinfo.hussar.ssdp.zig.service.ISsPersonInfoService;
+import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import org.apache.poi.xssf.usermodel.*;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * <p>
+ * 社保人员信息表 服务实现类
+ * </p>
+ *
+ * @author 赵继国
+ * @since 2019-10-08
+ */
+@Service
+public class SsPersonInfoServiceImpl extends ServiceImpl<SsPersonInfoMapper, SsPersonInfo> implements ISsPersonInfoService {
+
+    @Autowired
+    private SsPersonInfoMapper personInfoMapper;
+    @Value("${hussar.file-path}")
+    String realPath;
+
+    /**
+     * 导入
+     * @param ssPersonInfos
+     * @return
+     */
+
+    @Override
+    public Map<String, Object> savePersonInfo(List<SsPersonInfo> ssPersonInfos) {
+        Map<String, Object> result=new HashMap<>(5);
+        int count=0;
+       /*for (SsPersonInfo personInfo:ssPersonInfos){
+            personInfoMapper.insertPersonInfo(personInfo);
+            count++;
+        }*/
+        personInfoMapper.insertPersonInfo(ssPersonInfos);
+
+        result.put("count",count);
+        return result;
+    }
+
+    /**
+     * 以乡村为单位导出
+     * @param request
+     * @param response
+     */
+    @Override
+    public Map<String,Object> exportVillageFile(HttpServletRequest request, HttpServletResponse response) {
+
+        Map<String,Object> result = new HashMap<>(5);
+        //获得所有的镇
+        List<Map<String, Object>> allTowns = personInfoMapper.getTowns();
+        //用于查看是否已经生成过文件
+        /*File dirFile = new File(realPath);
+        File[] listFiles = dirFile.listFiles();
+        if(listFiles!=null){
+            result.put("message",2);
+            return result;
+        }*/
+        System.out.println("===============================执行吗");
+        //String realPath = request.getSession().getServletContext().getRealPath();
+        //遍历出所有乡镇
+        for (Map<String,Object> town:allTowns){
+            //获取乡镇名称
+            String townName = (String) town.get("town");
+            //获取乡镇下的村
+            List<Map<String, Object>> allVillages = personInfoMapper.getVillages(town);
+            new Thread(()-> {
+                //遍历出该乡镇下的村
+                for (Map<String, Object> village : allVillages) {
+                    //用于存放乡镇和村
+                    Map<String, Object> map = new HashMap<>(5);
+                    //获取村名
+                    String villageName = (String) village.get("village");
+                    System.out.println("====================村名" + villageName);
+                    //
+                    map.put("town", townName);
+                    map.put("village", villageName);
+                    //填入Excel表中数据
+                    List<SsPersonInfo> ssPersonInfos = personInfoMapper.getPayableInfoByTown(map);
+
+                    /**
+                     * 按照镇分出一下目录
+                     */
+                    String fileName = villageName + "村（社区）人员基本信息.xlsx";
+                    String path = realPath + "\\" + townName + "\\" + villageName + "\\";
+                    File targetFile = new File(path);
+                    if (!targetFile.exists()) {
+                        targetFile.mkdirs();
+                    }
+
+                    //将数据写出
+                    try {
+                        FileOutputStream outputStream = new FileOutputStream(new File(path + fileName));
+                        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+                        /**
+                         * 解决文件名中文乱码问题
+                         */
+                        response.addHeader("Content-Disposition",
+                                "attachment;filename=" + new String(fileName.getBytes("GB2312"), "ISO8859-1"));
+                        XSSFWorkbook workbook = new XSSFWorkbook();
+
+                        //表头
+                        String sheetName = villageName + "村（社区）人员基本信息";
+                        XSSFSheet sheet = workbook.createSheet(sheetName);
+                        /**
+                         * 设置打印格式
+                         */
+                        XSSFPrintSetup printSetup = sheet.getPrintSetup();
+                        printSetup.setPaperSize(XSSFPrintSetup.A4_PAPERSIZE);
+                        printSetup.setLandscape(true);
+                        printSetup.setFitHeight((short) 1);
+                        printSetup.setFitWidth((short) 1);
+                        printSetup.setScale((short) 65);
+                        printSetup.setFooterMargin(0);
+                        printSetup.setHeaderMargin(0);
+                        sheet.setMargin(XSSFSheet.TopMargin, 0.3);
+                        sheet.setMargin(XSSFSheet.BottomMargin, 0);
+                        sheet.setMargin(XSSFSheet.LeftMargin, 0.3);
+                        sheet.setMargin(XSSFSheet.RightMargin, 0);
+
+                        //创建第一行
+                        XSSFRow row = sheet.createRow(0);
+                        XSSFCell cell;
+                        row.setHeightInPoints(40);
+
+                        XSSFFont font = workbook.createFont();
+                        font.setFontName("宋体");
+                        //粗体显示
+                        font.setBold(true);
+                        font.setFontHeightInPoints((short) 16);
+                        cell = row.createCell(0);
+                        cell.setCellValue("身份证号");
+                        cell = row.createCell(1);
+                        cell.setCellValue("姓名");
+                        cell = row.createCell(2);
+                        cell.setCellValue("村镇社区/学校");
+                        cell = row.createCell(3);
+                        cell.setCellValue("照片");
+                        sheet.setColumnWidth(0, 4096);
+                        sheet.setColumnWidth(1, 4096);
+                        sheet.setColumnWidth(2, 4096);
+                        sheet.setColumnWidth(3, 4096);
+
+                        //设置列的内容
+                        for (int i = 0; i < ssPersonInfos.size(); i++) {
+                            row = sheet.createRow(i + 1);
+                            row.setHeightInPoints(20);
+                            SsPersonInfo personInfo = ssPersonInfos.get(i);
+
+                            cell = row.createCell(0);
+                            cell.setCellValue(personInfo.getIdentityCard());
+                            cell = row.createCell(1);
+                            cell.setCellValue(personInfo.getName());
+                            cell = row.createCell(2);
+                            cell.setCellValue(personInfo.getNativePlace());
+                            System.out.println("=========" + personInfo.getNativePlace());
+                        }
+                        workbook.write(outputStream);
+                        InputStream excelStrem = new ByteArrayInputStream(byteArrayOutputStream.toByteArray());
+                        //写入目标文件
+                        byte[] buffer = new byte[1024 * 1024];
+                        int byteRead = 0;
+                        while ((byteRead = excelStrem.read(buffer)) != -1) {
+                            outputStream.write(buffer, 0, byteRead);
+                            outputStream.flush();
+                        }
+                        System.out.println("=======================导出成功");
+                        outputStream.close();
+                        excelStrem.close();
+                    } catch (Exception e) {
+                        result.put("message",0);
+                        e.printStackTrace();
+                    }
+                }
+            }).start();
+        }
+        result.put("message",1);
+        return result;
+    }
+}

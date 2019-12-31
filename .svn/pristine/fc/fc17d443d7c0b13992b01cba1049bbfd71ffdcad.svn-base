@@ -1,0 +1,35 @@
+package com.jxdinfo.hussar.ssdp.zig.service;
+
+import com.jxdinfo.hussar.ssdp.zig.model.SsPersonInfo;
+import com.baomidou.mybatisplus.service.IService;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.util.List;
+import java.util.Map;
+
+/**
+ * <p>
+ * 社保人员信息表 服务类
+ * </p>
+ *
+ * @author 赵继国
+ * @since 2019-10-08
+ */
+public interface ISsPersonInfoService extends IService<SsPersonInfo> {
+    /**
+     * 导入
+     * @param ssPersonInfos
+     * @return
+     */
+
+    public Map<String,Object> savePersonInfo(List<SsPersonInfo> ssPersonInfos);
+
+    /**
+     * 以乡村为单位导出
+     * @param request
+     * @param response
+     */
+    Map<String,Object> exportVillageFile(HttpServletRequest request, HttpServletResponse response);
+
+}

@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59a483f3-0955-48a1-9d48-35a3955bdfc7" name="Default Changelist" comment="">
+      <change afterPath="D:/BaiduNetdiskDownload/gssj-develop/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/BaiduNetdiskDownload/gssj-develop/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/BaiduNetdiskDownload/gssj-develop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/BaiduNetdiskDownload/gssj-outer/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="D:/BaiduNetdiskDownload/gssj-outer/.idea/libraries/Maven__com_oracle_ojdbc6_11_2_0_3.xml" afterDir="false" />
+      <change afterPath="D:/BaiduNetdiskDownload/gssj-outer/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="D:/HTML/gssj/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/HTML/gssj/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/HTML/gssj/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/HTML/maven-v8-oracle/src/main/java/com/TomcatConfig.java" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/artifacts/test_jndi_war.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/artifacts/test_jndi_war_exploded.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__com_oracle_ojdbc6_11_2_0_3.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_2.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_27.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_8_Final.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_spring_aop_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_spring_beans_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_spring_context_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_spring_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_spring_expression_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_spring_orm_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_spring_test_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_spring_tx_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_spring_web_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="D:/HTML/test-jndi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/artifacts/gssj_service_war.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/artifacts/gssj_service_war_exploded.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__com_oracle_ojdbc6_11_2_0_3.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_19.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_mybatis_mybatis_3_5_2.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_2.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_0.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_0.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="D:/Icons/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/Icons/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="D:/JXD_WORKSPACE/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="D:/JXD_WORKSPACE/.idea/misc.xml" afterDir="false" />
+      <change afterPath="D:/JXD_WORKSPACE/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/JXD_WORKSPACE/bjgc/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/JXD_WORKSPACE/bjgc/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/JXD_WORKSPACE/bjgc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/JXD_WORKSPACE/gssj-service/.idea/misc.xml" afterDir="false" />
+      <change afterPath="D:/JXD_WORKSPACE/gssj-service/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/JXD_WORKSPACE/gssj/.idea/misc.xml" afterDir="false" />
+      <change afterPath="D:/JXD_WORKSPACE/gssj/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/JXD_WORKSPACE/guanxian/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/JXD_WORKSPACE/guanxian/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/JXD_WORKSPACE/guanxian/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/QQPCMgr/Desktop/T5/字节转动/powersystemdb/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/QQPCMgr/Desktop/T5/字节转动/powersystemdb/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/QQPCMgr/Desktop/T5/字节转动/powersystemdb/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/download/gxsw/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/download/gxsw/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/download/gxsw/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/groovy-space/gradle-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/groovy-space/hello-groovy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/groovy-space/hello-groovy/src/com/jxd/Student.groovy" afterDir="false" />
+      <change afterPath="D:/react-workplace/tic-tac-toe/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="D:/react-workplace/tic-tac-toe/.idea/misc.xml" afterDir="false" />
+      <change afterPath="D:/react-workplace/tic-tac-toe/.idea/modules.xml" afterDir="false" />
+      <change afterPath="D:/react-workplace/tic-tac-toe/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/spring-cloud-space/itcast-rabbitmq/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/spring-cloud-space/itcast-rabbitmq/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/spring-cloud-space/itcast-rabbitmq/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/utils/http-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/utils/http-demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/utils/http-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/utils/leyou-manage-web/src/pages/item/MyBrand.vue" afterDir="false" />
+      <change afterPath="D:/utils/maven-v8-oracle/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/utils/maven-v8-oracle/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/utils/maven-v8-oracle/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-place/gxsw/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/work-place/gxsw/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/work-place/gxsw/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-place/redis-demo/src/main/java/com/jxd/redisdemo/service/StudentService.java" afterDir="false" />
+      <change afterPath="D:/work-space/BookManage/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/artifacts/SPS_war.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/artifacts/SPS_war_exploded.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__bouncycastle_bcmail_jdk14_138.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__bouncycastle_bcprov_jdk14_138.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_alibaba_druid_1_0_13.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_alibaba_fastjson_1_2_17.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_itextpdf_itext_asian_5_2_0.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_itextpdf_itextpdf_5_4_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_jxd_jodconverter_2_2_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_jxd_jodconverter_cli_2_2_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_jxd_ojdbc14_1_0.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_jxd_xstream_1_3_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_lowagie_itext_2_1_7.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_lowagie_itext_rtf_2_1_7.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__commons_net_commons_net_3_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__javax_javaee_api_7_0.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_0.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__jaxen_jaxen_1_1_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__joda_time_joda_time_2_7.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_30.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__net_sf_ehcache_ehcache_2_9_0.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__net_sf_ehcache_ehcache_core_2_4_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__net_sf_flexjson_flexjson_2_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__net_shibboleth_utilities_java_support_7_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_axis2_axis2_adb_1_6_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_axis2_axis2_kernel_1_6_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_axis2_axis2_transport_http_1_6_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_axis2_axis2_transport_local_1_6_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_cxf_cxf_core_3_1_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_soap_3_1_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_cxf_cxf_rt_bindings_xml_3_1_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_cxf_cxf_rt_databinding_jaxb_3_1_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_jaxws_3_1_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_cxf_cxf_rt_frontend_simple_3_1_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_cxf_cxf_rt_security_3_1_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_cxf_cxf_rt_security_saml_3_1_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_3_1_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_cxf_cxf_rt_transports_http_jetty_3_1_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_addr_3_1_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_policy_3_1_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_security_3_1_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_cxf_cxf_rt_wsdl_3_1_11.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_activation_1_1_spec_1_0_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_javamail_1_4_spec_1_7_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_stax_api_1_0_spec_1_0_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_ws_metadata_2_0_spec_1_1_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_6.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_james_apache_mime4j_core_0_7_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_neethi_neethi_3_0_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_poi_poi_3_16.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_16.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_16.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_poi_poi_scratchpad_3_16.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_santuario_xmlsec_2_0_8.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_shiro_shiro_ehcache_1_2_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_shiro_shiro_quartz_1_2_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_2_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_2_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_woden_woden_api_1_0M9.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_woden_woden_impl_commons_1_0M9.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_woden_woden_impl_dom_1_0M9.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_ws_commons_axiom_axiom_api_1_2_13.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_ws_commons_axiom_axiom_impl_1_2_13.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_ws_commons_schema_XmlSchema_1_4_7.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_ws_xmlschema_xmlschema_core_2_2_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_wss4j_wss4j_bindings_2_1_9.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_wss4j_wss4j_policy_2_1_9.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_wss4j_wss4j_ws_security_common_2_1_9.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_wss4j_wss4j_ws_security_dom_2_1_9.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_wss4j_wss4j_ws_security_policy_stax_2_1_9.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_wss4j_wss4j_ws_security_stax_2_1_9.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_bouncycastle_bcmail_jdk14_1_38.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk14_1_38.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_51.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_bouncycastle_bctsp_jdk14_1_38.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_codehaus_woodstox_wstx_asl_3_2_9.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_cryptacular_cryptacular_1_0.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_2_21_v20170120.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_2_21_v20170120.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_21_v20170120.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_2_21_v20170120.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_2_21_v20170120.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_21_v20170120.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_1_Final.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_hibernate_hibernate_core_4_1_7_Final.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_hibernate_hibernate_ehcache_4_1_7_Final.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_1_7_Final.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_1_1_Final.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_jasypt_jasypt_1_9_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_jdom_jdom_2_0_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_openoffice_juh_3_0_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_openoffice_jurt_3_0_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_openoffice_ridl_3_0_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_openoffice_unoil_3_0_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_opensaml_opensaml_core_3_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_opensaml_opensaml_profile_api_3_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_opensaml_opensaml_saml_api_3_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_opensaml_opensaml_saml_impl_3_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_opensaml_opensaml_security_api_3_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_opensaml_opensaml_security_impl_3_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_opensaml_opensaml_soap_api_3_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_opensaml_opensaml_xacml_api_3_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_opensaml_opensaml_xacml_impl_3_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_opensaml_opensaml_xacml_saml_api_3_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_opensaml_opensaml_xacml_saml_impl_3_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_opensaml_opensaml_xmlsec_api_3_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_opensaml_opensaml_xmlsec_impl_3_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_opensymphony_quartz_quartz_1_6_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_7.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_springframework_spring_aop_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_springframework_spring_beans_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_springframework_spring_context_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_springframework_spring_context_support_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_springframework_spring_core_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_springframework_spring_expression_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_springframework_spring_jdbc_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_springframework_spring_orm_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_springframework_spring_test_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_springframework_spring_tx_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_springframework_spring_web_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__wsdl4j_wsdl4j_1_6_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/libraries/Maven__xml_resolver_xml_resolver_1_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/misc.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/modules.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-space/SPS/src/main/java/com/sps/economicAnalyse/controller/SceneController.java" afterDir="false" />
+      <change afterPath="D:/work-space/TPShopManage/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-space/bjgc/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/work-space/bjgc/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="D:/work-space/bjgc/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/work-space/bjgc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-space/bjgc/src/main/webapp/static/upload/1/334B353C7FB1469E8EC8C15300FB302F.pdf" afterDir="false" />
+      <change afterPath="D:/work-space/cloud-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/work-space/cloud-demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/work-space/cloud-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-space/dyp-eis/.idea/misc.xml" afterDir="false" />
+      <change afterPath="D:/work-space/dyp-eis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/artifacts/gssj_outer_service_war.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/artifacts/gssj_outer_service_war_exploded.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_16.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_16.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jul_2_11_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_2.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_22.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_22.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_22.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_spring_aop_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_spring_beans_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_spring_context_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_spring_core_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_spring_expression_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_spring_web_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-outer-service/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-service/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-service/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-service/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-service/src/main/java/com/gssj/outerService/test/controller/SearchWordController.java" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-service/src/main/java/com/gssj/outerService/test/dao/SearchWordMapper.java" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-service/src/main/java/com/gssj/outerService/test/dao/SearchWordMapper.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-service/src/main/java/com/gssj/outerService/test/service/ISearchWordService.java" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-service/src/main/java/com/gssj/outerService/test/service/impl/SearchWordService.java" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="D:/work-space/gssj-service/src/main/resources/mapper/SearchWordMapper.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/work-space/gssj/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-space/hussar-web/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/work-space/hussar-web/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="D:/work-space/hussar-web/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/work-space/hussar-web/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-space/hussar/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="D:/work-space/hussar/.idea/libraries/activation_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/hussar/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-space/hussar/src/rebel.xml" afterDir="false" />
+      <change afterPath="D:/work-space/leyou/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/work-space/leyou/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/work-space/leyou/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-space/maven-v8-oracle/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/work-space/maven-v8-oracle/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/work-space/maven-v8-oracle/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-space/maven_oracle_v8/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/work-space/maven_oracle_v8/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="D:/work-space/maven_oracle_v8/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/work-space/maven_oracle_v8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-space/mls/.idea/artifacts/zzz.xml" afterDir="false" />
+      <change afterPath="D:/work-space/mls/.idea/libraries/activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="D:/work-space/pmsjfx/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/work-space/pmsjfx/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/work-space/pmsjfx/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/work-space/pmsjfx/src/main/webapp/WEB-INF/view/login.html" afterDir="false" />
+      <change afterPath="D:/work-space/pmsjfx/src/main/webapp/WEB-INF/view/login1.html" afterDir="false" />
+      <change afterPath="D:/work-space/springboot-learning/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/springboot-learning/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/springboot-learning/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/springboot-learning/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="D:/work-space/springboot-learning/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="D:/zip/gxsw/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="D:/zip/gxsw/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="D:/zip/gxsw/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/zip/gxsw/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/zip/gxswsjdb/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="D:/zip/gxswsjdb/.idea/misc.xml" afterDir="false" />
+      <change afterPath="D:/zip/gxswsjdb/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gssj/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gssj/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gssj/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jxdbi/jxdbi/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jxdbi/jxdbi/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jxdbi/jxdbi/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/controller/SsPersonInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/controller/SsPersonInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/service/impl/SsPersonInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/service/impl/SsPersonInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ssdp/ssPersonInfo/ssPersonInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ssdp/ssPersonInfo/ssPersonInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/ssdp/ssPersonInfo/ssPersonInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/ssdp/ssPersonInfo/ssPersonInfo.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="gxssdp@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="gxssdp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="gxssdp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="gxssdp: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="gxssdp@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="gxssdp: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-700208101">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/dao/mapping/PersonInfoMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3350">
+              <caret line="134" column="12" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/dao/PersonInfoMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1650">
+              <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/model/PersonInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/service/IPersonInfoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1300">
+              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/service/impl/SsPersonInfoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="925">
+              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/service/impl/PersonInfoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="49" column="61" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/controller/SsPersonInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3325">
+              <caret line="151" column="5" selection-start-line="146" selection-start-column="4" selection-end-line="151" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/controller/PersonInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1150">
+              <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>exportVillageFile</find>
+      <find>excelImport</find>
+      <find>url</find>
+      <find>log.level.console.print</find>
+      <find>level</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/service/impl/SsPersonInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/model/PersonInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/controller/SsPersonInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/dao/mapping/PersonInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/dao/PersonInfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/service/IPersonInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ssdp/ssPersonInfo/ssPersonInfo.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/ssdp/ssPersonInfo/ssPersonInfo.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/controller/PersonInfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/service/impl/PersonInfoServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\respository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gxssdp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gxssdp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="635" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gxssdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gxssdp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gxssdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gxssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gxssdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gxssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gxssdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gxssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gxssdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gxssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gxssdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gxssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jxdinfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gxssdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gxssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jxdinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="hussar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gxssdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gxssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jxdinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="hussar" type="462c0819:PsiDirectoryNode" />
+              <item name="ssdp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gxssdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gxssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jxdinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="hussar" type="462c0819:PsiDirectoryNode" />
+              <item name="ssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="phy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gxssdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gxssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jxdinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="hussar" type="462c0819:PsiDirectoryNode" />
+              <item name="ssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="phy" type="462c0819:PsiDirectoryNode" />
+              <item name="ssdp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gxssdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gxssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jxdinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="hussar" type="462c0819:PsiDirectoryNode" />
+              <item name="ssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="phy" type="462c0819:PsiDirectoryNode" />
+              <item name="ssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gxssdp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gxssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jxdinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="hussar" type="462c0819:PsiDirectoryNode" />
+              <item name="ssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="phy" type="462c0819:PsiDirectoryNode" />
+              <item name="ssdp" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle&#10;mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="ExpandSpringBootSpringBootSettingsPanel" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576487595479" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gxsw" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jxdinfo.hussar.ssdp.phy.ssdp.controller" />
+      <recent name="com.jxdinfo.hussar.ssdp.phy.ssdp.service.impl" />
+      <recent name="com.jxdinfo.hussar.ssdp.phy.ssdp.service" />
+      <recent name="com.jxdinfo.hussar.ssdp.phy.ssdp.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\KDR\gxssdp\src\main\java\com\jxdinfo\hussar\ssdp\phy\ssdp\dao\mapping" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HussarApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gxssdp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.HussarApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_144\jre" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59a483f3-0955-48a1-9d48-35a3955bdfc7" name="Default Changelist" comment="" />
+      <created>1572755340144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572755340144</updated>
+      <workItem from="1572755341825" duration="4044000" />
+      <workItem from="1572759698305" duration="34000" />
+      <workItem from="1572847452037" duration="788000" />
+      <workItem from="1572849814982" duration="5221000" />
+      <workItem from="1572857000476" duration="72000" />
+      <workItem from="1572857108948" duration="5282000" />
+      <workItem from="1572921546993" duration="524000" />
+      <workItem from="1572923182464" duration="2023000" />
+      <workItem from="1573091157987" duration="3588000" />
+      <workItem from="1573612852857" duration="815000" />
+      <workItem from="1573613980401" duration="1032000" />
+      <workItem from="1573624112392" duration="2005000" />
+      <workItem from="1573633131972" duration="1447000" />
+      <workItem from="1573701954982" duration="8064000" />
+      <workItem from="1573778277516" duration="1871000" />
+      <workItem from="1573781158256" duration="8829000" />
+      <workItem from="1573805438546" duration="987000" />
+      <workItem from="1573975806200" duration="1618000" />
+      <workItem from="1574066586037" duration="14000" />
+      <workItem from="1574414400297" duration="95000" />
+      <workItem from="1575508832715" duration="772000" />
+      <workItem from="1575617473194" duration="8529000" />
+      <workItem from="1575851153165" duration="1480000" />
+      <workItem from="1576110893145" duration="886000" />
+      <workItem from="1576138362639" duration="1831000" />
+      <workItem from="1576141962333" duration="171000" />
+      <workItem from="1576146694943" duration="219000" />
+      <workItem from="1576147963213" duration="4504000" />
+      <workItem from="1576197565781" duration="101000" />
+      <workItem from="1576487274426" duration="353000" />
+      <workItem from="1576488487957" duration="4696000" />
+      <workItem from="1577068736813" duration="8000" />
+      <workItem from="1577178657876" duration="28000" />
+      <workItem from="1577178795826" duration="3401000" />
+      <workItem from="1577414410493" duration="1582000" />
+      <workItem from="1577675300368" duration="133000" />
+      <workItem from="1577676374422" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="77067000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32573727" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="JRebel" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info id="Web" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.2527115" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.2733189" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Problems" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.50159913" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.34164858" />
+      <window_info anchor="bottom" id="Database Console" order="19" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Maven Projects" order="11" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32171583" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="JRebel" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info id="Web" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.2527115" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.2733189" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Problems" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.50159913" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.34164858" />
+      <window_info anchor="bottom" id="Database Console" order="19" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Maven Projects" order="11" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/eef2304d-9f33-4bfc-961f-3ef570ad5178/console.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/zig/controller/SsPersonInfoController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/controller/ReadExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/Executor.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/ExecutorService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ureport.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/kaptcha.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/service/ISsPersonInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/dao/SsPersonInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e56c36c0-3647-4155-bb48-e4b2bec930f8/schema/gxssdp/table/gxsb_person_info" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e56c36c0-3647-4155-bb48-e4b2bec930f8/console.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/model/SsPersonInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/dao/mapping/SsPersonInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17/poi-3.17-sources.jar!/org/apache/poi/hssf/usermodel/HSSFClientAnchor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-produce.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/ssdp/ssPersonInfo/ssPersonInfo_info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/ssdp/ssPersonInfo/ssPersonInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6000">
+          <caret line="240" column="20" selection-start-line="240" selection-start-column="20" selection-end-line="240" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/jxdinfo/hussar/ssdp/phy/ssdp/service/impl/PersonInfoServiceImpl.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2150">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ssdp/ssPersonInfo/ssPersonInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/dao/mapping/PersonInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3350">
+          <caret line="134" column="12" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/dao/PersonInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/model/PersonInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/service/IPersonInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/service/impl/SsPersonInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/controller/SsPersonInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3325">
+          <caret line="151" column="5" selection-start-line="146" selection-start-column="4" selection-end-line="151" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/controller/PersonInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jxdinfo/hussar/ssdp/phy/ssdp/service/impl/PersonInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="49" column="61" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>gxssdp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

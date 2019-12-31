@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jxdinfo.hussar.ssdp.phy.ssdp.dao.SsPersonInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jxdinfo.hussar.ssdp.phy.ssdp.model.SsPersonInfo">
+        <result column="identity_card" property="identityCard" />
+        <result column="name" property="name" />
+        <result column="native_place" property="nativePlace" />
+        <result column="town" property="town" />
+        <result column="village" property="village" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <!--<sql id="Base_Column_List">-->
+        <!--identity_card AS identityCard, name AS name, native_place AS nativePlace, town AS town, village AS village-->
+    <!--</sql>-->
+    <!--插入-->
+    <insert id="insertAll">
+        insert into ss_person_info(identity_card,name,native_place,town,village) values (#{identityCard},#{name},#{nativePlace},#{town},#{village})
+    </insert>
+
+    <!--批量插入-->
+    <insert id="batchInsertAll" parameterType="java.util.List">
+        INSERT INTO ss_person_info(identity_card,name,native_place,town,village)
+        VALUES
+        <foreach collection="list" item="item" index="index" separator=",">
+            (#{item.identityCard,jdbcType=VARCHAR},#{item.name,jdbcType=VARCHAR},
+            #{item.nativePlace,jdbcType=VARCHAR},#{item.town,jdbcType=VARCHAR},#{item.village,jdbcType=VARCHAR})
+        </foreach>
+    </insert>
+
+    <!--获取所有镇-->
+    <select id="getAllTown" resultType="map">
+        SELECT DISTINCT town Town FROM ss_person_info
+    </select>
+
+    <!--根据镇获取所有的村-->
+    <select id="getAllVillage" resultType="map" parameterType="map">
+        SELECT DISTINCT village Village FROM ss_person_info WHERE town=#{Town}
+    </select>
+
+    <!--根据镇和村获取一个村的人员信息-->
+    <select id="getPayableInfoByVillage" parameterType="map" resultMap="BaseResultMap">
+        select
+        identity_card,name,native_place,town,village
+        from ss_person_info
+        WHERE
+        town=#{Town}
+        and village=#{Village}
+    </select>
+
+    <!--取出相应照片-->
+    <select id="mobilePhotos" resultType="String">
+        select
+        identity_card
+        from ss_person_info
+    </select>
+</mapper>

@@ -1,0 +1,40 @@
+@layout("/common/layout.html",{title:'管理'}){
+<div class="layui-fluid weadmin-body">
+    <form class="layui-form" action="">
+        <div class="layui-elem-quote">
+            <label>社保信息整理</label>
+        </div>
+        <br />
+        <div class="layui-form-item clearfix">
+            <div class="layui-input-inline">
+                <input type="text" id="condition" placeholder="请输入名称" autocomplete="off" class="layui-input" >
+            </div>
+            <div class="layui-input-inline">
+                <button class="layui-btn" data-type="reload" type="button" onclick="SsPersonInfo.search()"><i class="layui-icon">&#xe615;</i>查询</button>
+                <button class="layui-btn" type="reset"><i class="layui-icon">&#xe00A;</i>重置</button>
+
+
+            </div>
+            <div class="fr">
+                <div id="choose" style="display: none; height: 100px;width: 300px" >
+                    <form enctype="multipart/form-data" id="batchUpload" class="form-horizontal">
+                        <button class="btn btn-success btn-xs" id="uploadEventBtn" style="height:26px;float: left;margin-left:20px;margin-top: 20px"  type="button" >选择文件</button>
+                        <input type="file" name="file"  style="width:0px;height:0px;float:left;" id="uploadEventFile">
+                        <input id="uploadEventPath"  disabled="disabled"  type="text" placeholder="请选择excel表" style="border: 1px solid #e6e6e6; height: 26px;width: 200px;margin-top:20px;" />
+                    </form>
+                    <button type="button" class="btn btn-success btn-sm"  id="uploadBtn" style="margin-left: 220px;margin-top: 10px;">上传</button>
+                </div>
+                <button type="button" class="layui-btn" id="delInfo">删除</button>
+                <button type="button" class="layui-btn" id="excelImport"><i class="layui-icon">&#xe681;</i>导入</button>
+                <button type="button" class="layui-btn" id="excelExport"><i class="layui-icon">&#xe601;</i>导出</button>
+                <button id="havePhoto" class="layui-btn" type="button"><i class="layui-icon">&#xe601;</i>已有照片人员导出</button>
+                <button id="mobilephotos" class="layui-btn" type="button"><i class="layui-icon">&#xe601;</i>导出对应照片</button>
+                <!--<button type="button" class="layui-btn" id="del"-->
+                <!--onclick="SsPersonInfo.delete()"><i class="layui-icon">&#xe640;</i>删除</button>-->
+            </div>
+        </div>
+    </form>
+    <table id="SsPersonInfoTable" ></table>
+</div>
+<script src="${ctxPath}/static/ssdp/ssPersonInfo/ssPersonInfo.js"></script>
+@}
